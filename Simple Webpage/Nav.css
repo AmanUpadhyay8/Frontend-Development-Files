@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+}
+
+p{
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+.navbar{
+    background-color: #f9dc5c;
+    height: 50px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    margin: 13px 20px;
+    list-style: none;
+    border-radius: 1px;
+    /* background: rgb(126, 81, 26); */
+    
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar input{
+    border: 2px solid gray;
+    border-radius: 20px;  
+    padding: 5px;
+    height: 35px;
+    width: 225px;
+    
+}
+
+.search{
+    float: right;
+    color: white;
+    padding: 7px 35px; 
+    border-radius: 2px;
+}
+
+.brand{
+    font-size: 37px;
+    font-family: 'Rampart One', cursive;
+    float: left;
+    margin-top: -5px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+.jumbo-tron{
+    margin: 0;
+    height: 650px;
+    background: url(assets/bg-plain-resize.jpg) no-repeat;
+}
+
+.jumbo-container{
+    width: 50%;
+}
+
+.jumbo-header{
+    font-size: 5vw;
+    font-family: 'WindSong', cursive;
+    padding: 50px 0 0 75px;
+}
+
+.jumbo-content{
+    font-size: 5vw;
+    font-family: 'Allison', cursive;
+    padding: 50px 0 0 75px;
+    color: black;
+}
+
+
+
+.container{
+    background: #ffee99;
+    border-radius: 5px;
+    width: 96%;
+    margin:   auto;
+
+    padding: 25px;
+
+
+    display: grid;
+    grid-template-columns: repeat( auto-fill , minmax(300px  , 1fr));
+    grid-gap: 50px;
+
+    grid-auto-rows: minmax(200px , auto);
+}
+
+.item{
+    background: #fffae5;
+    border-radius: 5px;
+    
+    margin: 25px auto;
+    padding: 33px;
+
+}
+
+.image{
+    
+    margin-right: 20px ;
+    border-radius: 5px;
+    width: 100px;
+    float: left;
+    
+}
+
+.head{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Rampart One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+.foot{
+    margin-top: 100px;
+    padding: 15px;
+
+    text-align: center;
+
+    background: whitesmoke;
+    border: 1px solid gray;
+
+}
+
+footer{
+    margin: 0;
+    padding: 20px;
+    background: #fffced;
+    border-top: 1px solid gray;
+}
+
+.outer ul li {
+    margin-top: 10px;
+    list-style: none;
+
+    font-family: 'ubuntu' , sans-serif;
+    font-size: large;
+    color: gray;
+}
+
+.outer{
+    margin: 20px;
+    padding: 10px;
+}
+
+.news{
+    background: #fcefb4;
+    border-radius: 3px;
+    width: 45%;
+    float: right;
+}
+
+.news-head{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: ubuntu , sans-serif; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.news input{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    padding: 15px;
+    width: 70%;
+    border-radius: 3px;
+    border: none;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    margin-left: 210px;
+    margin-bottom: 50px;
+    width: 25%;
+    padding: 15px;
+
+    font-size: 15px;
+
+    background-color: #fecf3e;
+
+    color: gainsboro;
+    
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px #5f4c4cbd;
+}
+
+.other-footer{
+    width: 25%;
+    float: right;
+    margin-top: -215px;
+}
+
+#icons{
+    letter-spacing: 25px;
+    font-size: 25px;
+}
+
+.social-icons{
+    width: 50%;
+    margin-left: 15px;
+    padding: 25px;
+    
+    
+}
+
+.made{
+    margin-top: 30px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-family: 'ubuntu' , sans-serif ;
+    font-size: 18px;
+}
+
+
+@media all and ( max-width : 500px){
+    .news{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 90%;
+        float: none;
+    }
+}
