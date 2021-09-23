@@ -4,10 +4,8 @@
 
 #### It conntains pages purely made of HTML, CSS and Javascript. 
 
-### Currently the Site contains a simple HTML and CSS based login form.
 
 
-## I am learning open source.
 
 
 
